@@ -1,16 +1,23 @@
-Categorical Columns:
+The dataset appears to be about the population statistics of different countries/territories, including historical population data, geographical details, and growth metrics. Here's a breakdown:
 
-CCA3 (three-letter country code), Country/Territory, Capital, Continent.
-These are textual fields and can be used for classification or grouping.
-Example use: Group countries by continent to analyze regional population trends.
-Numerical Columns:
-
-Historical population data (2022 Population, 2020 Population, ..., 1970 Population): Ideal for time-series analysis and trend prediction.
-Area (km²): Land area can help in calculating and verifying density.
-Density (per km²): Population per unit area. Correlation with other features can show overpopulation or underpopulation trends.
-Growth Rate: Predict future population sizes.
-World Population Percentage: Analyze contributions of countries to global population.
-Ranking Columns:
+Columns and Their Descriptions:
+Rank: The ranking of the country/territory based on some criteria (likely population size).
+CCA3: The three-letter country code.
+Country/Territory: Name of the country or territory.
+Capital: The capital city of the country/territory.
+Continent: The continent the country/territory is located in.
+2022 Population: Population in 2022.
+2020 Population: Population in 2020.
+2015 Population: Population in 2015.
+2010 Population: Population in 2010.
+2000 Population: Population in 2000.
+1990 Population: Population in 1990.
+1980 Population: Population in 1980.
+1970 Population: Population in 1970.
+Area (km²): Land area of the country/territory in square kilometers.
+Density (per km²): Population density per square kilometer.
+Growth Rate: Average annual population growth rate (likely a percentage).
+World Population Percentage: The percentage of the global population that the country/territory represents.
 
 Rank: Numeric representation of order by population or other criteria.
 Potential Learning Types
